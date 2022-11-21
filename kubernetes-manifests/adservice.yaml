@@ -31,7 +31,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
       - name: server
-        image: adservice:v1
+        image: saivishnukottedockerid/home-commerce-project:adservice
         ports:
         - containerPort: 9555
         env:

@@ -32,7 +32,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
         - name: server
-          image: frontend:v1
+          image: saivishnukottedockerid/home-commerce-project:frontend
           ports:
           - containerPort: 8080
           readinessProbe:

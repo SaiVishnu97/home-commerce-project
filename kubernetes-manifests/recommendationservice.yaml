@@ -31,7 +31,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
       - name: server
-        image: recommendationservice:v1 
+        image: saivishnukottedockerid/home-commerce-project:recommendationservice 
         ports:
         - containerPort: 8080
         readinessProbe:

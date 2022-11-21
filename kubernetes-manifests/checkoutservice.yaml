@@ -30,7 +30,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
         - name: server
-          image: checkoutservice:v1
+          image: saivishnukottedockerid/home-commerce-project:checkoutservice
           ports:
           - containerPort: 5050
           readinessProbe:
